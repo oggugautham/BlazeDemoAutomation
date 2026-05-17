@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-05-17T17:21:46 IST" name="BlazeDemo Test Suite" finished-at="2026-05-17T17:21:56 IST" duration-ms="10052">
+    <groups>
+      <group name="functional">
+        <method signature="FlightBookingTest.TC02_searchFlightsWithValidCities()[pri:2, instance:com.blazedemo.tests.FlightBookingTest@6aeb35e6]" name="TC02_searchFlightsWithValidCities" class="com.blazedemo.tests.FlightBookingTest"/>
+        <method signature="FlightBookingTest.TC03_completeFlightBooking()[pri:3, instance:com.blazedemo.tests.FlightBookingTest@6aeb35e6]" name="TC03_completeFlightBooking" class="com.blazedemo.tests.FlightBookingTest"/>
+        <method signature="FlightBookingTest.TC04_multipleBookingsWithDifferentDataSets(java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:com.blazedemo.tests.FlightBookingTest@6aeb35e6]" name="TC04_multipleBookingsWithDifferentDataSets" class="com.blazedemo.tests.FlightBookingTest"/>
+      </group> <!-- functional -->
+      <group name="smoke">
+        <method signature="FlightBookingTest.TC01_verifyHomepageLoadsAndDropdownsVisible()[pri:1, instance:com.blazedemo.tests.FlightBookingTest@6aeb35e6]" name="TC01_verifyHomepageLoadsAndDropdownsVisible" class="com.blazedemo.tests.FlightBookingTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2026-05-17T17:21:46 IST" name="Flight Booking Tests" finished-at="2026-05-17T17:21:56 IST" duration-ms="10052">
+      <class name="com.blazedemo.tests.FlightBookingTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.blazedemo.tests.FlightBookingTest@6aeb35e6]" started-at="2026-05-17T17:21:46 IST" name="setup" finished-at="2026-05-17T17:21:49 IST" duration-ms="2607" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TC01_verifyHomepageLoadsAndDropdownsVisible()[pri:1, instance:com.blazedemo.tests.FlightBookingTest@6aeb35e6]" started-at="2026-05-17T17:21:49 IST" name="TC01_verifyHomepageLoadsAndDropdownsVisible" finished-at="2026-05-17T17:21:49 IST" duration-ms="105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC01_verifyHomepageLoadsAndDropdownsVisible -->
+        <test-method signature="TC02_searchFlightsWithValidCities()[pri:2, instance:com.blazedemo.tests.FlightBookingTest@6aeb35e6]" started-at="2026-05-17T17:21:49 IST" name="TC02_searchFlightsWithValidCities" finished-at="2026-05-17T17:21:50 IST" duration-ms="874" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC02_searchFlightsWithValidCities -->
+        <test-method signature="TC03_completeFlightBooking()[pri:3, instance:com.blazedemo.tests.FlightBookingTest@6aeb35e6]" started-at="2026-05-17T17:21:50 IST" name="TC03_completeFlightBooking" finished-at="2026-05-17T17:21:52 IST" duration-ms="2281" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC03_completeFlightBooking -->
+        <test-method signature="TC04_multipleBookingsWithDifferentDataSets(java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:com.blazedemo.tests.FlightBookingTest@6aeb35e6]" started-at="2026-05-17T17:21:52 IST" name="TC04_multipleBookingsWithDifferentDataSets" data-provider="bookingData" finished-at="2026-05-17T17:21:54 IST" duration-ms="2024" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Paris]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Buenos Aires]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Max]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC04_multipleBookingsWithDifferentDataSets -->
+        <test-method signature="TC04_multipleBookingsWithDifferentDataSets(java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:com.blazedemo.tests.FlightBookingTest@6aeb35e6]" started-at="2026-05-17T17:21:54 IST" name="TC04_multipleBookingsWithDifferentDataSets" data-provider="bookingData" finished-at="2026-05-17T17:21:56 IST" duration-ms="2049" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Philadelphia]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Rome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[John]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC04_multipleBookingsWithDifferentDataSets -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.blazedemo.tests.FlightBookingTest@6aeb35e6]" started-at="2026-05-17T17:21:56 IST" name="teardown" finished-at="2026-05-17T17:21:56 IST" duration-ms="90" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.blazedemo.tests.FlightBookingTest -->
+    </test> <!-- Flight Booking Tests -->
+  </suite> <!-- BlazeDemo Test Suite -->
+</testng-results>
